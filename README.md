@@ -8,7 +8,6 @@ Skin cancer is a global health concern that might be alleviated by embedded devi
 ## Cite:
 H. Ijaz, H. Sultan, M. Altaf and A. Waris, "Embedded Skin Lesion Segmentation using Lightweight Encoder-Decoder Architectures," 2023 3rd International Conference on Artificial Intelligence (ICAI), Islamabad, Pakistan, 2023, pp. 176-181, doi: 10.1109/ICAI58407.2023.10136688.
 
-or
 
 @INPROCEEDINGS{10136688,
   author={Ijaz, Haris and Sultan, Hajrah and Altaf, Mishal and Waris, Asim},
