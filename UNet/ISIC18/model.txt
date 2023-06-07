@@ -1,0 +1,194 @@
+Model: "model_1"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to                     
+==================================================================================================
+ input_2 (InputLayer)           [(None, 224, 224, 3  0           []                               
+                                )]                                                                
+                                                                                                  
+ conv2d_19 (Conv2D)             (None, 224, 224, 64  1792        ['input_2[0][0]']                
+                                )                                                                 
+                                                                                                  
+ batch_normalization_18 (BatchN  (None, 224, 224, 64  256        ['conv2d_19[0][0]']              
+ ormalization)                  )                                                                 
+                                                                                                  
+ activation_18 (Activation)     (None, 224, 224, 64  0           ['batch_normalization_18[0][0]'] 
+                                )                                                                 
+                                                                                                  
+ conv2d_20 (Conv2D)             (None, 224, 224, 64  36928       ['activation_18[0][0]']          
+                                )                                                                 
+                                                                                                  
+ batch_normalization_19 (BatchN  (None, 224, 224, 64  256        ['conv2d_20[0][0]']              
+ ormalization)                  )                                                                 
+                                                                                                  
+ activation_19 (Activation)     (None, 224, 224, 64  0           ['batch_normalization_19[0][0]'] 
+                                )                                                                 
+                                                                                                  
+ max_pooling2d_4 (MaxPooling2D)  (None, 112, 112, 64  0          ['activation_19[0][0]']          
+                                )                                                                 
+                                                                                                  
+ conv2d_21 (Conv2D)             (None, 112, 112, 12  73856       ['max_pooling2d_4[0][0]']        
+                                8)                                                                
+                                                                                                  
+ batch_normalization_20 (BatchN  (None, 112, 112, 12  512        ['conv2d_21[0][0]']              
+ ormalization)                  8)                                                                
+                                                                                                  
+ activation_20 (Activation)     (None, 112, 112, 12  0           ['batch_normalization_20[0][0]'] 
+                                8)                                                                
+                                                                                                  
+ conv2d_22 (Conv2D)             (None, 112, 112, 12  147584      ['activation_20[0][0]']          
+                                8)                                                                
+                                                                                                  
+ batch_normalization_21 (BatchN  (None, 112, 112, 12  512        ['conv2d_22[0][0]']              
+ ormalization)                  8)                                                                
+                                                                                                  
+ activation_21 (Activation)     (None, 112, 112, 12  0           ['batch_normalization_21[0][0]'] 
+                                8)                                                                
+                                                                                                  
+ max_pooling2d_5 (MaxPooling2D)  (None, 56, 56, 128)  0          ['activation_21[0][0]']          
+                                                                                                  
+ conv2d_23 (Conv2D)             (None, 56, 56, 256)  295168      ['max_pooling2d_5[0][0]']        
+                                                                                                  
+ batch_normalization_22 (BatchN  (None, 56, 56, 256)  1024       ['conv2d_23[0][0]']              
+ ormalization)                                                                                    
+                                                                                                  
+ activation_22 (Activation)     (None, 56, 56, 256)  0           ['batch_normalization_22[0][0]'] 
+                                                                                                  
+ conv2d_24 (Conv2D)             (None, 56, 56, 256)  590080      ['activation_22[0][0]']          
+                                                                                                  
+ batch_normalization_23 (BatchN  (None, 56, 56, 256)  1024       ['conv2d_24[0][0]']              
+ ormalization)                                                                                    
+                                                                                                  
+ activation_23 (Activation)     (None, 56, 56, 256)  0           ['batch_normalization_23[0][0]'] 
+                                                                                                  
+ max_pooling2d_6 (MaxPooling2D)  (None, 28, 28, 256)  0          ['activation_23[0][0]']          
+                                                                                                  
+ conv2d_25 (Conv2D)             (None, 28, 28, 512)  1180160     ['max_pooling2d_6[0][0]']        
+                                                                                                  
+ batch_normalization_24 (BatchN  (None, 28, 28, 512)  2048       ['conv2d_25[0][0]']              
+ ormalization)                                                                                    
+                                                                                                  
+ activation_24 (Activation)     (None, 28, 28, 512)  0           ['batch_normalization_24[0][0]'] 
+                                                                                                  
+ conv2d_26 (Conv2D)             (None, 28, 28, 512)  2359808     ['activation_24[0][0]']          
+                                                                                                  
+ batch_normalization_25 (BatchN  (None, 28, 28, 512)  2048       ['conv2d_26[0][0]']              
+ ormalization)                                                                                    
+                                                                                                  
+ activation_25 (Activation)     (None, 28, 28, 512)  0           ['batch_normalization_25[0][0]'] 
+                                                                                                  
+ max_pooling2d_7 (MaxPooling2D)  (None, 14, 14, 512)  0          ['activation_25[0][0]']          
+                                                                                                  
+ conv2d_27 (Conv2D)             (None, 14, 14, 1024  4719616     ['max_pooling2d_7[0][0]']        
+                                )                                                                 
+                                                                                                  
+ batch_normalization_26 (BatchN  (None, 14, 14, 1024  4096       ['conv2d_27[0][0]']              
+ ormalization)                  )                                                                 
+                                                                                                  
+ activation_26 (Activation)     (None, 14, 14, 1024  0           ['batch_normalization_26[0][0]'] 
+                                )                                                                 
+                                                                                                  
+ conv2d_28 (Conv2D)             (None, 14, 14, 1024  9438208     ['activation_26[0][0]']          
+                                )                                                                 
+                                                                                                  
+ batch_normalization_27 (BatchN  (None, 14, 14, 1024  4096       ['conv2d_28[0][0]']              
+ ormalization)                  )                                                                 
+                                                                                                  
+ activation_27 (Activation)     (None, 14, 14, 1024  0           ['batch_normalization_27[0][0]'] 
+                                )                                                                 
+                                                                                                  
+ conv2d_transpose_4 (Conv2DTran  (None, 28, 28, 512)  2097664    ['activation_27[0][0]']          
+ spose)                                                                                           
+                                                                                                  
+ concatenate_4 (Concatenate)    (None, 28, 28, 1024  0           ['conv2d_transpose_4[0][0]',     
+                                )                                 'activation_25[0][0]']          
+                                                                                                  
+ conv2d_29 (Conv2D)             (None, 28, 28, 512)  4719104     ['concatenate_4[0][0]']          
+                                                                                                  
+ batch_normalization_28 (BatchN  (None, 28, 28, 512)  2048       ['conv2d_29[0][0]']              
+ ormalization)                                                                                    
+                                                                                                  
+ activation_28 (Activation)     (None, 28, 28, 512)  0           ['batch_normalization_28[0][0]'] 
+                                                                                                  
+ conv2d_30 (Conv2D)             (None, 28, 28, 512)  2359808     ['activation_28[0][0]']          
+                                                                                                  
+ batch_normalization_29 (BatchN  (None, 28, 28, 512)  2048       ['conv2d_30[0][0]']              
+ ormalization)                                                                                    
+                                                                                                  
+ activation_29 (Activation)     (None, 28, 28, 512)  0           ['batch_normalization_29[0][0]'] 
+                                                                                                  
+ conv2d_transpose_5 (Conv2DTran  (None, 56, 56, 256)  524544     ['activation_29[0][0]']          
+ spose)                                                                                           
+                                                                                                  
+ concatenate_5 (Concatenate)    (None, 56, 56, 512)  0           ['conv2d_transpose_5[0][0]',     
+                                                                  'activation_23[0][0]']          
+                                                                                                  
+ conv2d_31 (Conv2D)             (None, 56, 56, 256)  1179904     ['concatenate_5[0][0]']          
+                                                                                                  
+ batch_normalization_30 (BatchN  (None, 56, 56, 256)  1024       ['conv2d_31[0][0]']              
+ ormalization)                                                                                    
+                                                                                                  
+ activation_30 (Activation)     (None, 56, 56, 256)  0           ['batch_normalization_30[0][0]'] 
+                                                                                                  
+ conv2d_32 (Conv2D)             (None, 56, 56, 256)  590080      ['activation_30[0][0]']          
+                                                                                                  
+ batch_normalization_31 (BatchN  (None, 56, 56, 256)  1024       ['conv2d_32[0][0]']              
+ ormalization)                                                                                    
+                                                                                                  
+ activation_31 (Activation)     (None, 56, 56, 256)  0           ['batch_normalization_31[0][0]'] 
+                                                                                                  
+ conv2d_transpose_6 (Conv2DTran  (None, 112, 112, 12  131200     ['activation_31[0][0]']          
+ spose)                         8)                                                                
+                                                                                                  
+ concatenate_6 (Concatenate)    (None, 112, 112, 25  0           ['conv2d_transpose_6[0][0]',     
+                                6)                                'activation_21[0][0]']          
+                                                                                                  
+ conv2d_33 (Conv2D)             (None, 112, 112, 12  295040      ['concatenate_6[0][0]']          
+                                8)                                                                
+                                                                                                  
+ batch_normalization_32 (BatchN  (None, 112, 112, 12  512        ['conv2d_33[0][0]']              
+ ormalization)                  8)                                                                
+                                                                                                  
+ activation_32 (Activation)     (None, 112, 112, 12  0           ['batch_normalization_32[0][0]'] 
+                                8)                                                                
+                                                                                                  
+ conv2d_34 (Conv2D)             (None, 112, 112, 12  147584      ['activation_32[0][0]']          
+                                8)                                                                
+                                                                                                  
+ batch_normalization_33 (BatchN  (None, 112, 112, 12  512        ['conv2d_34[0][0]']              
+ ormalization)                  8)                                                                
+                                                                                                  
+ activation_33 (Activation)     (None, 112, 112, 12  0           ['batch_normalization_33[0][0]'] 
+                                8)                                                                
+                                                                                                  
+ conv2d_transpose_7 (Conv2DTran  (None, 224, 224, 64  32832      ['activation_33[0][0]']          
+ spose)                         )                                                                 
+                                                                                                  
+ concatenate_7 (Concatenate)    (None, 224, 224, 12  0           ['conv2d_transpose_7[0][0]',     
+                                8)                                'activation_19[0][0]']          
+                                                                                                  
+ conv2d_35 (Conv2D)             (None, 224, 224, 64  73792       ['concatenate_7[0][0]']          
+                                )                                                                 
+                                                                                                  
+ batch_normalization_34 (BatchN  (None, 224, 224, 64  256        ['conv2d_35[0][0]']              
+ ormalization)                  )                                                                 
+                                                                                                  
+ activation_34 (Activation)     (None, 224, 224, 64  0           ['batch_normalization_34[0][0]'] 
+                                )                                                                 
+                                                                                                  
+ conv2d_36 (Conv2D)             (None, 224, 224, 64  36928       ['activation_34[0][0]']          
+                                )                                                                 
+                                                                                                  
+ batch_normalization_35 (BatchN  (None, 224, 224, 64  256        ['conv2d_36[0][0]']              
+ ormalization)                  )                                                                 
+                                                                                                  
+ activation_35 (Activation)     (None, 224, 224, 64  0           ['batch_normalization_35[0][0]'] 
+                                )                                                                 
+                                                                                                  
+ conv2d_37 (Conv2D)             (None, 224, 224, 1)  65          ['activation_35[0][0]']          
+                                                                                                  
+==================================================================================================
+Total params: 31,055,297
+Trainable params: 31,043,521
+Non-trainable params: 11,776
+__________________________________________________________________________________________________
+None
