@@ -1,0 +1,141 @@
+Train: 1720 - 1720
+Valid: 215 - 215
+Test: 215 - 215
+Epoch 1/200
+108/108 [==============================] - ETA: 0s - loss: 0.3209 - dice_coef: 0.5437 - iou: 0.3787 - recall: 0.6399 - precision: 0.7171
+Epoch 1: val_loss improved from inf to 3.05220, saving model to files\model.h5
+108/108 [==============================] - 228s 2s/step - loss: 0.3209 - dice_coef: 0.5437 - iou: 0.3787 - recall: 0.6399 - precision: 0.7171 - val_loss: 3.0522 - val_dice_coef: 0.3700 - val_iou: 0.2301 - val_recall: 0.9900 - val_precision: 0.2218 - lr: 1.0000e-04
+Epoch 2/200
+108/108 [==============================] - ETA: 0s - loss: 0.2002 - dice_coef: 0.6794 - iou: 0.5165 - recall: 0.7548 - precision: 0.8640
+Epoch 2: val_loss improved from 3.05220 to 0.37086, saving model to files\model.h5
+108/108 [==============================] - 205s 2s/step - loss: 0.2002 - dice_coef: 0.6794 - iou: 0.5165 - recall: 0.7548 - precision: 0.8640 - val_loss: 0.3709 - val_dice_coef: 0.4167 - val_iou: 0.2646 - val_recall: 0.3659 - val_precision: 0.8875 - lr: 1.0000e-04
+Epoch 3/200
+108/108 [==============================] - ETA: 0s - loss: 0.1694 - dice_coef: 0.7255 - iou: 0.5709 - recall: 0.7936 - precision: 0.8827
+Epoch 3: val_loss improved from 0.37086 to 0.28838, saving model to files\model.h5
+108/108 [==============================] - 205s 2s/step - loss: 0.1694 - dice_coef: 0.7255 - iou: 0.5709 - recall: 0.7936 - precision: 0.8827 - val_loss: 0.2884 - val_dice_coef: 0.5730 - val_iou: 0.4047 - val_recall: 0.5745 - val_precision: 0.8725 - lr: 1.0000e-04
+Epoch 4/200
+108/108 [==============================] - ETA: 0s - loss: 0.1491 - dice_coef: 0.7553 - iou: 0.6084 - recall: 0.8191 - precision: 0.8951
+Epoch 4: val_loss improved from 0.28838 to 0.21242, saving model to files\model.h5
+108/108 [==============================] - 203s 2s/step - loss: 0.1491 - dice_coef: 0.7553 - iou: 0.6084 - recall: 0.8191 - precision: 0.8951 - val_loss: 0.2124 - val_dice_coef: 0.6727 - val_iou: 0.5096 - val_recall: 0.6899 - val_precision: 0.9041 - lr: 1.0000e-04
+Epoch 5/200
+108/108 [==============================] - ETA: 0s - loss: 0.1370 - dice_coef: 0.7740 - iou: 0.6330 - recall: 0.8339 - precision: 0.8996
+Epoch 5: val_loss improved from 0.21242 to 0.16265, saving model to files\model.h5
+108/108 [==============================] - 199s 2s/step - loss: 0.1370 - dice_coef: 0.7740 - iou: 0.6330 - recall: 0.8339 - precision: 0.8996 - val_loss: 0.1627 - val_dice_coef: 0.7370 - val_iou: 0.5858 - val_recall: 0.7902 - val_precision: 0.8990 - lr: 1.0000e-04
+Epoch 6/200
+108/108 [==============================] - ETA: 0s - loss: 0.1275 - dice_coef: 0.7892 - iou: 0.6534 - recall: 0.8462 - precision: 0.9058
+Epoch 6: val_loss improved from 0.16265 to 0.14221, saving model to files\model.h5
+108/108 [==============================] - 199s 2s/step - loss: 0.1275 - dice_coef: 0.7892 - iou: 0.6534 - recall: 0.8462 - precision: 0.9058 - val_loss: 0.1422 - val_dice_coef: 0.7703 - val_iou: 0.6284 - val_recall: 0.8387 - val_precision: 0.8929 - lr: 1.0000e-04
+Epoch 7/200
+108/108 [==============================] - ETA: 0s - loss: 0.1204 - dice_coef: 0.8010 - iou: 0.6695 - recall: 0.8551 - precision: 0.9098
+Epoch 7: val_loss improved from 0.14221 to 0.13186, saving model to files\model.h5
+108/108 [==============================] - 198s 2s/step - loss: 0.1204 - dice_coef: 0.8010 - iou: 0.6695 - recall: 0.8551 - precision: 0.9098 - val_loss: 0.1319 - val_dice_coef: 0.7985 - val_iou: 0.6663 - val_recall: 0.8557 - val_precision: 0.8870 - lr: 1.0000e-04
+Epoch 8/200
+108/108 [==============================] - ETA: 0s - loss: 0.1143 - dice_coef: 0.8111 - iou: 0.6835 - recall: 0.8624 - precision: 0.9116
+Epoch 8: val_loss did not improve from 0.13186
+108/108 [==============================] - 197s 2s/step - loss: 0.1143 - dice_coef: 0.8111 - iou: 0.6835 - recall: 0.8624 - precision: 0.9116 - val_loss: 0.1650 - val_dice_coef: 0.7809 - val_iou: 0.6424 - val_recall: 0.8953 - val_precision: 0.8204 - lr: 1.0000e-04
+Epoch 9/200
+108/108 [==============================] - ETA: 0s - loss: 0.1092 - dice_coef: 0.8197 - iou: 0.6957 - recall: 0.8676 - precision: 0.9166
+Epoch 9: val_loss did not improve from 0.13186
+108/108 [==============================] - 197s 2s/step - loss: 0.1092 - dice_coef: 0.8197 - iou: 0.6957 - recall: 0.8676 - precision: 0.9166 - val_loss: 0.1605 - val_dice_coef: 0.7906 - val_iou: 0.6559 - val_recall: 0.9045 - val_precision: 0.8210 - lr: 1.0000e-04
+Epoch 10/200
+108/108 [==============================] - ETA: 0s - loss: 0.1029 - dice_coef: 0.8300 - iou: 0.7106 - recall: 0.8777 - precision: 0.9188
+Epoch 10: val_loss did not improve from 0.13186
+108/108 [==============================] - 198s 2s/step - loss: 0.1029 - dice_coef: 0.8300 - iou: 0.7106 - recall: 0.8777 - precision: 0.9188 - val_loss: 0.1514 - val_dice_coef: 0.7989 - val_iou: 0.6675 - val_recall: 0.9061 - val_precision: 0.8328 - lr: 1.0000e-04
+Epoch 11/200
+108/108 [==============================] - ETA: 0s - loss: 0.0980 - dice_coef: 0.8378 - iou: 0.7221 - recall: 0.8818 - precision: 0.9226
+Epoch 11: val_loss did not improve from 0.13186
+108/108 [==============================] - 198s 2s/step - loss: 0.0980 - dice_coef: 0.8378 - iou: 0.7221 - recall: 0.8818 - precision: 0.9226 - val_loss: 0.1498 - val_dice_coef: 0.8132 - val_iou: 0.6893 - val_recall: 0.8760 - val_precision: 0.8569 - lr: 1.0000e-04
+Epoch 12/200
+108/108 [==============================] - ETA: 0s - loss: 0.1001 - dice_coef: 0.8365 - iou: 0.7203 - recall: 0.8775 - precision: 0.9215
+Epoch 12: val_loss did not improve from 0.13186
+
+Epoch 12: ReduceLROnPlateau reducing learning rate to 9.999999747378752e-06.
+108/108 [==============================] - 199s 2s/step - loss: 0.1001 - dice_coef: 0.8365 - iou: 0.7203 - recall: 0.8775 - precision: 0.9215 - val_loss: 0.1340 - val_dice_coef: 0.8104 - val_iou: 0.6844 - val_recall: 0.8892 - val_precision: 0.8650 - lr: 1.0000e-04
+Epoch 13/200
+108/108 [==============================] - ETA: 0s - loss: 0.0845 - dice_coef: 0.8567 - iou: 0.7504 - recall: 0.8923 - precision: 0.9392
+Epoch 13: val_loss improved from 0.13186 to 0.10469, saving model to files\model.h5
+108/108 [==============================] - 200s 2s/step - loss: 0.0845 - dice_coef: 0.8567 - iou: 0.7504 - recall: 0.8923 - precision: 0.9392 - val_loss: 0.1047 - val_dice_coef: 0.8375 - val_iou: 0.7223 - val_recall: 0.8773 - val_precision: 0.9121 - lr: 1.0000e-05
+Epoch 14/200
+108/108 [==============================] - ETA: 0s - loss: 0.0748 - dice_coef: 0.8704 - iou: 0.7714 - recall: 0.9132 - precision: 0.9402
+Epoch 14: val_loss did not improve from 0.10469
+108/108 [==============================] - 198s 2s/step - loss: 0.0748 - dice_coef: 0.8704 - iou: 0.7714 - recall: 0.9132 - precision: 0.9402 - val_loss: 0.1051 - val_dice_coef: 0.8382 - val_iou: 0.7235 - val_recall: 0.8799 - val_precision: 0.9095 - lr: 1.0000e-05
+Epoch 15/200
+108/108 [==============================] - ETA: 0s - loss: 0.0717 - dice_coef: 0.8755 - iou: 0.7794 - recall: 0.9182 - precision: 0.9422
+Epoch 15: val_loss did not improve from 0.10469
+108/108 [==============================] - 212s 2s/step - loss: 0.0717 - dice_coef: 0.8755 - iou: 0.7794 - recall: 0.9182 - precision: 0.9422 - val_loss: 0.1058 - val_dice_coef: 0.8400 - val_iou: 0.7261 - val_recall: 0.8839 - val_precision: 0.9053 - lr: 1.0000e-05
+Epoch 16/200
+108/108 [==============================] - ETA: 0s - loss: 0.0692 - dice_coef: 0.8793 - iou: 0.7854 - recall: 0.9217 - precision: 0.9440
+Epoch 16: val_loss did not improve from 0.10469
+108/108 [==============================] - 200s 2s/step - loss: 0.0692 - dice_coef: 0.8793 - iou: 0.7854 - recall: 0.9217 - precision: 0.9440 - val_loss: 0.1069 - val_dice_coef: 0.8415 - val_iou: 0.7283 - val_recall: 0.8863 - val_precision: 0.9023 - lr: 1.0000e-05
+Epoch 17/200
+108/108 [==============================] - ETA: 0s - loss: 0.0671 - dice_coef: 0.8826 - iou: 0.7907 - recall: 0.9247 - precision: 0.9455
+Epoch 17: val_loss did not improve from 0.10469
+108/108 [==============================] - 199s 2s/step - loss: 0.0671 - dice_coef: 0.8826 - iou: 0.7907 - recall: 0.9247 - precision: 0.9455 - val_loss: 0.1082 - val_dice_coef: 0.8427 - val_iou: 0.7302 - val_recall: 0.8879 - val_precision: 0.9001 - lr: 1.0000e-05
+Epoch 18/200
+108/108 [==============================] - ETA: 0s - loss: 0.0651 - dice_coef: 0.8858 - iou: 0.7957 - recall: 0.9274 - precision: 0.9470
+Epoch 18: val_loss did not improve from 0.10469
+
+Epoch 18: ReduceLROnPlateau reducing learning rate to 9.999999747378752e-07.
+108/108 [==============================] - 201s 2s/step - loss: 0.0651 - dice_coef: 0.8858 - iou: 0.7957 - recall: 0.9274 - precision: 0.9470 - val_loss: 0.1095 - val_dice_coef: 0.8438 - val_iou: 0.7318 - val_recall: 0.8885 - val_precision: 0.8990 - lr: 1.0000e-05
+Epoch 19/200
+108/108 [==============================] - ETA: 0s - loss: 0.0625 - dice_coef: 0.8892 - iou: 0.8012 - recall: 0.9266 - precision: 0.9529
+Epoch 19: val_loss did not improve from 0.10469
+108/108 [==============================] - 200s 2s/step - loss: 0.0625 - dice_coef: 0.8892 - iou: 0.8012 - recall: 0.9266 - precision: 0.9529 - val_loss: 0.1068 - val_dice_coef: 0.8481 - val_iou: 0.7382 - val_recall: 0.8881 - val_precision: 0.9030 - lr: 1.0000e-06
+Epoch 20/200
+108/108 [==============================] - ETA: 0s - loss: 0.0618 - dice_coef: 0.8904 - iou: 0.8031 - recall: 0.9317 - precision: 0.9498
+Epoch 20: val_loss did not improve from 0.10469
+108/108 [==============================] - 200s 2s/step - loss: 0.0618 - dice_coef: 0.8904 - iou: 0.8031 - recall: 0.9317 - precision: 0.9498 - val_loss: 0.1074 - val_dice_coef: 0.8489 - val_iou: 0.7393 - val_recall: 0.8886 - val_precision: 0.9020 - lr: 1.0000e-06
+Epoch 21/200
+108/108 [==============================] - ETA: 0s - loss: 0.0615 - dice_coef: 0.8909 - iou: 0.8039 - recall: 0.9325 - precision: 0.9497
+Epoch 21: val_loss did not improve from 0.10469
+108/108 [==============================] - 199s 2s/step - loss: 0.0615 - dice_coef: 0.8909 - iou: 0.8039 - recall: 0.9325 - precision: 0.9497 - val_loss: 0.1081 - val_dice_coef: 0.8490 - val_iou: 0.7395 - val_recall: 0.8892 - val_precision: 0.9007 - lr: 1.0000e-06
+Epoch 22/200
+108/108 [==============================] - ETA: 0s - loss: 0.0612 - dice_coef: 0.8913 - iou: 0.8046 - recall: 0.9329 - precision: 0.9499
+Epoch 22: val_loss did not improve from 0.10469
+108/108 [==============================] - 199s 2s/step - loss: 0.0612 - dice_coef: 0.8913 - iou: 0.8046 - recall: 0.9329 - precision: 0.9499 - val_loss: 0.1087 - val_dice_coef: 0.8491 - val_iou: 0.7396 - val_recall: 0.8897 - val_precision: 0.8998 - lr: 1.0000e-06
+Epoch 23/200
+108/108 [==============================] - ETA: 0s - loss: 0.0610 - dice_coef: 0.8917 - iou: 0.8053 - recall: 0.9333 - precision: 0.9501
+Epoch 23: val_loss did not improve from 0.10469
+
+Epoch 23: ReduceLROnPlateau reducing learning rate to 1e-07.
+108/108 [==============================] - 198s 2s/step - loss: 0.0610 - dice_coef: 0.8917 - iou: 0.8053 - recall: 0.9333 - precision: 0.9501 - val_loss: 0.1091 - val_dice_coef: 0.8491 - val_iou: 0.7397 - val_recall: 0.8899 - val_precision: 0.8993 - lr: 1.0000e-06
+Epoch 24/200
+108/108 [==============================] - ETA: 0s - loss: 0.0606 - dice_coef: 0.8922 - iou: 0.8061 - recall: 0.9328 - precision: 0.9513
+Epoch 24: val_loss did not improve from 0.10469
+108/108 [==============================] - 198s 2s/step - loss: 0.0606 - dice_coef: 0.8922 - iou: 0.8061 - recall: 0.9328 - precision: 0.9513 - val_loss: 0.1092 - val_dice_coef: 0.8495 - val_iou: 0.7403 - val_recall: 0.8902 - val_precision: 0.8992 - lr: 1.0000e-07
+Epoch 25/200
+108/108 [==============================] - ETA: 0s - loss: 0.0606 - dice_coef: 0.8923 - iou: 0.8062 - recall: 0.9331 - precision: 0.9511
+Epoch 25: val_loss did not improve from 0.10469
+108/108 [==============================] - 198s 2s/step - loss: 0.0606 - dice_coef: 0.8923 - iou: 0.8062 - recall: 0.9331 - precision: 0.9511 - val_loss: 0.1092 - val_dice_coef: 0.8497 - val_iou: 0.7406 - val_recall: 0.8904 - val_precision: 0.8990 - lr: 1.0000e-07
+Epoch 26/200
+108/108 [==============================] - ETA: 0s - loss: 0.0605 - dice_coef: 0.8923 - iou: 0.8063 - recall: 0.9333 - precision: 0.9510
+Epoch 26: val_loss did not improve from 0.10469
+108/108 [==============================] - 198s 2s/step - loss: 0.0605 - dice_coef: 0.8923 - iou: 0.8063 - recall: 0.9333 - precision: 0.9510 - val_loss: 0.1092 - val_dice_coef: 0.8498 - val_iou: 0.7406 - val_recall: 0.8905 - val_precision: 0.8988 - lr: 1.0000e-07
+Epoch 27/200
+108/108 [==============================] - ETA: 0s - loss: 0.0605 - dice_coef: 0.8924 - iou: 0.8064 - recall: 0.9335 - precision: 0.9509
+Epoch 27: val_loss did not improve from 0.10469
+108/108 [==============================] - 198s 2s/step - loss: 0.0605 - dice_coef: 0.8924 - iou: 0.8064 - recall: 0.9335 - precision: 0.9509 - val_loss: 0.1093 - val_dice_coef: 0.8498 - val_iou: 0.7407 - val_recall: 0.8906 - val_precision: 0.8987 - lr: 1.0000e-07
+Epoch 28/200
+108/108 [==============================] - ETA: 0s - loss: 0.0605 - dice_coef: 0.8924 - iou: 0.8065 - recall: 0.9336 - precision: 0.9508
+Epoch 28: val_loss did not improve from 0.10469
+108/108 [==============================] - 198s 2s/step - loss: 0.0605 - dice_coef: 0.8924 - iou: 0.8065 - recall: 0.9336 - precision: 0.9508 - val_loss: 0.1093 - val_dice_coef: 0.8498 - val_iou: 0.7407 - val_recall: 0.8907 - val_precision: 0.8986 - lr: 1.0000e-07
+Epoch 29/200
+108/108 [==============================] - ETA: 0s - loss: 0.0604 - dice_coef: 0.8925 - iou: 0.8065 - recall: 0.9338 - precision: 0.9507
+Epoch 29: val_loss did not improve from 0.10469
+108/108 [==============================] - 198s 2s/step - loss: 0.0604 - dice_coef: 0.8925 - iou: 0.8065 - recall: 0.9338 - precision: 0.9507 - val_loss: 0.1094 - val_dice_coef: 0.8498 - val_iou: 0.7407 - val_recall: 0.8908 - val_precision: 0.8985 - lr: 1.0000e-07
+Epoch 30/200
+108/108 [==============================] - ETA: 0s - loss: 0.0604 - dice_coef: 0.8925 - iou: 0.8066 - recall: 0.9339 - precision: 0.9507
+Epoch 30: val_loss did not improve from 0.10469
+108/108 [==============================] - 198s 2s/step - loss: 0.0604 - dice_coef: 0.8925 - iou: 0.8066 - recall: 0.9339 - precision: 0.9507 - val_loss: 0.1094 - val_dice_coef: 0.8498 - val_iou: 0.7408 - val_recall: 0.8908 - val_precision: 0.8984 - lr: 1.0000e-07
+Epoch 31/200
+108/108 [==============================] - ETA: 0s - loss: 0.0604 - dice_coef: 0.8926 - iou: 0.8067 - recall: 0.9340 - precision: 0.9506
+Epoch 31: val_loss did not improve from 0.10469
+108/108 [==============================] - 198s 2s/step - loss: 0.0604 - dice_coef: 0.8926 - iou: 0.8067 - recall: 0.9340 - precision: 0.9506 - val_loss: 0.1094 - val_dice_coef: 0.8499 - val_iou: 0.7408 - val_recall: 0.8908 - val_precision: 0.8983 - lr: 1.0000e-07
+Epoch 32/200
+108/108 [==============================] - ETA: 0s - loss: 0.0604 - dice_coef: 0.8926 - iou: 0.8068 - recall: 0.9340 - precision: 0.9506
+Epoch 32: val_loss did not improve from 0.10469
+108/108 [==============================] - 198s 2s/step - loss: 0.0604 - dice_coef: 0.8926 - iou: 0.8068 - recall: 0.9340 - precision: 0.9506 - val_loss: 0.1095 - val_dice_coef: 0.8499 - val_iou: 0.7408 - val_recall: 0.8909 - val_precision: 0.8983 - lr: 1.0000e-07
+Epoch 33/200
+108/108 [==============================] - ETA: 0s - loss: 0.0603 - dice_coef: 0.8927 - iou: 0.8069 - recall: 0.9341 - precision: 0.9506
+Epoch 33: val_loss did not improve from 0.10469
+108/108 [==============================] - 198s 2s/step - loss: 0.0603 - dice_coef: 0.8927 - iou: 0.8069 - recall: 0.9341 - precision: 0.9506 - val_loss: 0.1095 - val_dice_coef: 0.8499 - val_iou: 0.7408 - val_recall: 0.8909 - val_precision: 0.8983 - lr: 1.0000e-07
